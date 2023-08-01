@@ -1288,6 +1288,11 @@ footer{
 .footer_items_1 li {
     list-style: none;
 }
+@media only screen and (max-width:345px){
+    .footer_items_1 li {
+    display:flex;
+}
+}
 .footer_items_1 li i{
     margin-right: 10px !important;
     text-align: center;
