@@ -1,0 +1,921 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="nav_wrapper">
+        <i class="fa-solid fa-bars" id="three_dot"></i>
+
+        <nav class="main_menus">
+
+            <ul class="main_menus_ul">
+                <li style="margin-left: 15px;"> <a href="#">HOME</a></li>
+
+                <li class="features_submenus"><a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURES <i
+                            class="fa-solid fa-caret-down"
+                            style="margin-left: 10px; font-size: 15px !important;"></i></a>
+
+                    <ul class="dropdown-menu single_post_dropdown features_submenus_ul">
+
+                        <li class="home_standard_submenus">
+                            <a href="#" style="position:relative;" class="home_standard_submenus_a">HOME STANDARD
+                                <i class="fa-solid fa-caret-down"
+                                    style="margin-left: 10px; font-size: 15px;position: absolute; right: 3px; top:50%;translate: 0 -50%; transform: rotateZ(-90deg); "></i>
+                            </a>
+
+                            <ul class="home_standard_submenus_ul">
+
+                                <li><a href="#">STANDARD LEFT SIDEBAR</a></li>
+                                <li><a href="#">STANDARD RIGHT SIDEBAR</a></li>
+                                <li><a href="#">STANDARD NO SIDEBAR</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">HOME GIRD</a></li>
+
+                        <li class="home_list_submenus"><a href="#" style="position: relative;">HOME LIST <i
+                                    class="fa-solid fa-caret-down"
+                                    style="font-size: 15px;position: absolute; right: 3px; top:50%;translate: 0 -50%; transform: rotateZ(-90deg); "></i></a>
+
+                            <ul class="home_list_submenus_ul">
+
+                                <li><a href="#">LIST LEFT SIDEBAR</a></li>
+                                <li><a href="#">LIST RIGHT SIDEBAR</a></li>
+                                <li><a href="#">LIST NO SIDEBAR</a></li>
+
+                            </ul>
+
+
+                        </li>
+
+                    </ul>
+
+
+
+                </li>
+
+
+
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">SINGLE POST<i
+                            class="fa-solid fa-caret-down"
+                            style="margin-left: 10px; font-size: 15px !important;"></i></a>
+
+                    <ul class="dropdown-menu single_post_dropdown">
+                        <li><a href="#">IMAGES</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">SLIDESHOW</a></li>
+                        <li><a href="#">AUDIO</a></li>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="#">QUOTE</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">LIFESTYLE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li style="margin-right: 0;"><a href="#">CONTACT</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-share-nodes"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+
+    <!-- navbar end -->
+
+
+    <div class="logo">
+        <img src="images/logo-2.png" alt="" class="brand_blog_logo">
+    </div>
+
+    <!-- carousel start -->
+    <div class="container-fluid carousel_wrapper">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" id="flex">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active" id="first_carousel_image">
+                    <div class="carousel-caption">
+                        <a href="#">/ LIFESTYLE /</a>
+                        <h2>In daily life, people have many way to get pleasure</h2>
+                        <hr>
+                        <a href="#">| READ MORE |</a>
+                    </div>
+                </div>
+          
+                <div class="item" id="second_carousel_image"> 
+                    <div class="carousel-caption">
+                        <a href="#">/ UNCATEGORIZED /</a>
+                        <h2>I have a happy and peaceful life there</h2>
+                        <hr>
+                        <a href="#">| READ MORE |</a>
+                    </div>
+                </div>
+                
+                <div class="item" id="third_carousel_image">
+                    <div class="carousel-caption">
+                        <a href="#">/ LIFESTYLE /</a>
+                        <h2>Our defeat was mainly due to our ill-discipline</h2>
+                        <hr>
+                        <a href="#">| READ MORE |</a>
+                    </div>
+                </div>
+
+                <div class="item" id="fourth_carousel_image">
+                    <div class="carousel-caption">
+                        <a href="#">/ FRIENDLINESS /</a>
+                        <h2>Their happiness comes before anything else</h2>
+                        <hr>
+                        <a href="#">| READ MORE |</a>
+                    </div>
+                </div>
+
+            </div>
+        
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" id="left_change"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" id="right_control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        
+      </div>
+
+    <!-- carousel end -->
+
+    <!-- three box start -->
+    <div class="three_box_wrapper">
+
+        <div class="box img_box1">
+
+            <div style="overflow:hidden; width:100%">
+            <div class="inner_text">
+                <h2>Lifestyle</h2>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="box img_box2">
+
+            <div style="overflow:hidden; width:100%">
+            <div class="inner_text">
+                <h2>Discover</h2>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="box img_box3">
+            <div style="overflow:hidden; width:100%">
+            <div class="inner_text">
+                <h2>Contact</h2>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <!-- three box end -->
+
+    <!-- total blogs wrapper start -->
+    <div class="total_blogs_wrapper">
+
+        <div class="blogs">
+            <section class="first_sec">
+                <img src="images/slider-3-1200x800.jpg" alt="">
+                <div class="total_texts">
+                    <a href="#">/ FRIENDLINESS /</a>
+                    <h2>THE BASIS OF FRIENDSHIP IS SHARING</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-image"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="images_1"></div>
+                           <p>CHANGE YOUR LIFE IF YOU FEEL IT’S NECESSARY</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="images_2"></div>
+                            <p>A HIGH RISK INVESTMENT MAY BRING YOU BIG PROFIT</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="images_3"></div>
+                            <p>EAST OR WEST, HOME IS BEST</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="second_sec">
+
+                <img src="images/image-4.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ BEAUTIFUL /</a>
+                    <h2>THE SOONER YOU TRY THE SOONER YOU CAN SUCCEED</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-music"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_first"></div>
+                           <p>LOVE IS FOUNDATION OF A HAPPY FAMMILY</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box_second"></div>
+                            <p>ENJOY THE FRUITS OF YOUR LABOUR</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="img_box_third"></div>
+                            <p>THE KIDS LOVE GOING TO THE SEASIDE</p>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="third_sec">
+                <img src="images/image-6.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ ARTIST /</a>
+                    <h2>LET’S TAKE A CHANCE AND HOPE FOR THE BEST</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-image"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box4"></div>
+                           <p>IN DAILY LIFE, PEOPLE HAVE MANY WAY TO GET PLEASURE</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box5"></div>
+                            <p>OUR DEFEAT WAS MAINLY DUE TO OUR ILL-DISCIPLINE</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="img_box6"></div>
+                            <p>FAITHFULNESS HELPS EXTEND THE HAPPINESS OF A FAMILY</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="fourth_sec">
+                <img src="images/new-27-1200x795.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ FRIENDLINESS /</a>
+                    <h2>CHANGE YOUR LIFE IF YOU FEEL IT’S NECESSARY</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-image"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_7"></div>
+                           <p>THE BASIS OF FRIENDSHIP IS SHARING</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="images_2"></div>
+                            <p>A HIGH RISK INVESTMENT MAY BRING YOU BIG PROFIT</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="images_3"></div>
+                            <p>EAST OR WEST, HOME IS BEST</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="fifth_sec">
+                <img src="images/new-19.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ BEAUTIFUL /</a>
+                    <h2>STATE OF THE ART ENGINEER AT YOUR FINGERTIPS</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-image"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_8"></div>
+                           <p>
+                            PAINTING IS JUST ANOTHER WAY OF KEEPING A DIARY</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box_9"></div>
+                            <p>LET’S DEPEND UPON ONE’S OWN EFFORTSC</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="img_box_10"></div>
+                            <p>LIFE IS CHOICES, AND LET’S CHOOSE JOY</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="sixth_sec">
+                <img src="images/new-7.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ LIFESTYLE /</a>
+                    <h2>FAITHFULNESS HELPS EXTEND THE HAPPINESS OF A FAMILY</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-video"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box4"></div>
+                           <p>IN DAILY LIFE, PEOPLE HAVE MANY WAY TO GET PLEASURE</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box5"></div>
+                            <p>OUR DEFEAT WAS MAINLY DUE TO OUR ILL-DISCIPLINE</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="img_box_11"></div>
+                            <p>LET’S TAKE A CHANCE AND HOPE FOR THE BEST</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="seventh_sec">
+                <img src="images/new-33.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ BEAUTIFUL /</a>
+                    <h2>A HIGH RISK INVESTMENT MAY BRING YOU BIG PROFIT</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-video"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_7"></div>
+                           <p>THE BASIS OF FRIENDSHIP IS SHARING</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="images_1"></div>
+                            <p>CHANGE YOUR LIFE IF YOU FEEL IT’S NECESSARY</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="images_3"></div>
+                            <p>EAST OR WEST, HOME IS BEST</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="eighth_sec">
+                <img src="images/new-23-1191x800.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ ARTIST /</a>
+                    <h2>ALL WORK AND NO PLAY MAKE JACK A DULL BOY</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-image"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="flex_box">
+
+                       <div id="flex_box_1">
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_12">
+                            <img src="images/image4-1024x684.jpg" alt="" width="100%" >
+                           </div>
+                           <p>THEIR HAPPINESS COMES BEFORE ANYTHING ELSE</p>
+                       </div>
+
+                       <div id="flex_box_2">
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box_13">
+                                <img src="images/new-16-1024x683.jpg" alt="" width="100%">
+                            </div>
+                            <p>THE FRIENDSHIP IS VERY BEAUTIFUL</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="nineth_sec">
+                <img src="images/new-20-1199x800.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ BEAUTIFUL /</a>
+                    <h2>LOVE IS FOUNDATION OF A HAPPY FAMMILY</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-video"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_14"></div>
+                           <p>THE BASIS OF FRIENDSHIP IS SHARING</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box_second"></div>
+                            <p>CHANGE YOUR LIFE IF YOU FEEL IT’S NECESSARY</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="img_box_third"></div>
+                            <p>EAST OR WEST, HOME IS BEST</p>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="tenth_sec">
+                <img src="images/new-15.jpg" alt="" style="width: 100%;">
+                <div class="total_texts">
+                    <a href="#">/ FRIENDLINESS /</a>
+                    <h2>ENJOY THE FRUITS OF YOUR LABOUR</h2>
+                    <span>September 14, 2016</span>
+                    <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor. Aliquam sed nunc elit. Nunc faucibus interdum mauris at mattis.Phasellus congue volutpat porttitor. Vivamus fringilla iaculis ex, et condimentum magna pharetra id. Aliquam erat volutpat. Nam odio velit, egestas vel leo tempus, luctus dapibus mauris. Phasellus molestie, lectus</p>
+                </div>
+                <div class="footer_texts_all">
+                    <div class="left_texts">
+                        <pre><i class="fa-solid fa-video"></i> / By KendyTheme / No Comment</pre>
+                    </div>
+                    <div class="middle_text">
+                        <p>| READ MORE |</p>
+                    </div>
+                    <ul class="social_links">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <h2>MORE LIKE THIS</h2>
+                    <div class="grid_column">
+                       <div>
+                           <!-- <img src="images/1-2-1024x344.jpg" alt="" width="20%"> -->
+                           <div class="img_box_14"></div>
+                           <p>THE BASIS OF FRIENDSHIP IS SHARING</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-7-1024x683.jpg" alt="" width="20%"> -->
+                            <div class="img_box_first"></div>
+                            <p>CHANGE YOUR LIFE IF YOU FEEL IT’S NECESSARY</p>
+                       </div>
+
+                       <div>
+                            <!-- <img src="images/new-46-1024x1024.jpg" alt="" width="20%"> -->
+                            <div class="img_box_third"></div>
+                            <p>EAST OR WEST, HOME IS BEST</p>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div class="About_us">
+            <h2 class="about_h2">ABOUT ME</h2>
+            <section class="first_sec">
+                <img src="images/about-me-2.jpg" alt="">
+                <h2 class="first_sec_h2">WILLIAM SHATNER</h2>
+                <p>Taciti nunc magna tincidunt adipiscing pretium pharetra platea. Vivamus quisque duis ullamcorper Adipiscing aliquet lectus.Amet augue rutrum gravida tellus nostra integer netus</p>
+            </section>
+
+            <section class="sec2">
+            <h2 class="about_h2 follow_h2">FOLLOW</h2>
+            <p class="sec2_p">Various versions have evolved over the years, sometimes</p>
+             <ul>
+                <li><i class="fa-brands fa-behance"></i></li>
+                <li><i class="fa-brands fa-dribbble"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-google-plus-g"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>   
+          </section> 
+          
+          <section class="sec3">
+            <h2 class="about_h2 sec3_h2">LATEST POSTS</h2>
+            <div class="grid_iteams_1">
+
+                <div class="items first_box">
+                    <div class="img1"></div>
+                   <div> 
+                      <a href="#">In daily life, people have many way to get pleasure</a>
+                      <p>September 14, 2016</p>
+                   </div>
+                </div>
+
+                <div class="items second_box">
+                    <div class="img2"></div>
+                    <div>
+                      <a href="#">I have a happy and peaceful life there</a>
+                      <p>September 14, 2016</p>
+                    </div>    
+                </div>
+
+                <div class="items third_box">
+                    <div class="img3"></div>
+                    <div>
+                      <a href="#">Our defeat was mainly due to our ill-discipline</a>
+                      <p> September 14, 2016</p>
+                    </div>  
+                </div>
+
+                <div class="items fourth_box">
+                    <div class="img4"></div>
+                    <div>
+                     <a href="#"> Their happiness comes before anything else
+                     </a>
+                     <p>September 14, 2016</p>
+                    </div>
+                </div>
+
+            </div>
+
+          </section>
+
+          <section class="sec4">
+            <h2 class="about_h2 sec4_h2">POPULAR POSTS</h2>
+
+            <div class="grid_iteams_1">
+
+                <div class="items first_box">
+                    <div class="img5"></div>
+                   <div> 
+                      <a href="#">
+                        I like to discuss the plans with an expert</a>
+                      <p>September 14, 2016</p>
+                   </div>
+                </div>
+
+                <div class="items second_box">
+                    <div class="img6"></div>
+                    <div>
+                      <a href="#">A high risk investment may bring you big profit</a>
+                      <p>September 14, 2016</p>
+                    </div>    
+                </div>
+
+                <div class="items third_box">
+                    <div class="img7"></div>
+                    <div>
+                      <a href="#">Faithfulness helps extend the happiness of a family</a>
+                      <p> September 14, 2016</p>
+                    </div>  
+                </div>
+
+                <div class="items fourth_box">
+                    <div class="img8"></div>
+                    <div>
+                     <a href="#"> State of the art engineer at your fingertips
+                     </a>
+                     <p>September 14, 2016</p>
+                    </div>
+                </div>
+
+            </div>
+          </section>
+
+          <section class="sec5">
+            <h2 class="about_h2 sec5_h2">POPULAR POSTS</h2>
+            <p>Sign up to receive updates and join our 1 subscribers that see what's new with my Tran's Blog!</p>
+            <div>
+                <input type="email" placeholder="Your mail....">
+                <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+            </div>
+
+          </section>
+          <section class="sec6">
+            <h2 class="about_h2 sec6_h2">INSTAGRAM</h2>
+            <p>Please check your instagram settings and try again.</p>
+          </section>
+
+          <section class="sec7">
+            <h2 class="about_h2 sec7_h2">FLICKR</h2>
+            <div class="images_box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+          </section>
+
+          <section class="sec8">
+            <h2 class="about_h2 sec7_h2">RECENT TWEETS</h2>
+            <li>Our twitter feed is unavailable right now. Follow us on Twitter</li>
+          </section>
+
+          <section class="sec9">
+            <h2 class="about_h2 sec7_h2">TAGS</h2>
+            <p>beautiful, diary, dream, friendliness, interest, investment</p>
+          </section>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- total blogs wrapper end -->
+    <div class="next_buttom">
+        <p>Older Posts</p>
+    </div>
+
+<!-- footer start -->
+<footer>
+    <div class="footer_items">
+        <div class="footer_items_1">
+            <h2>CONTACT ME</h2>
+            <p>Amet augue rutrum gravida tellus nostra integer netus, feugiat sociis. Euismod nunc lacus ante commodo tortor montes eu duis orci tempor iaculis sociosqu.</p>
+            <ul class="location">
+                <li><i class="fa-solid fa-location-dot"></i>75 Washington DC</li>
+                <li><i class="fa-solid fa-envelope"></i>kendytheme.ksb@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i>+123 456 789</li>
+            </ul>
+        </div>
+        <div class="footer_items_2">
+            <h2 class="">FLICKR</h2>
+            <div class="image_container" >
+                <div class="image_container1"></div>
+                <div class="image_container2"></div>
+                <div class="image_container3"></div>
+                <div class="image_container4"></div>
+                <div class="image_container5"></div>
+                <div class="image_container6"></div>
+            </div>
+        </div>
+        <div class="footer_items_3">
+            <h2 class="">RANDOM POSTS</h2>
+
+            <div id="box_first">
+                <div id="image_box_1"></div>
+                <div>
+                    <p>Painting is just another way of keeping a diary</p>
+                    <span>September 14, 2016</span>
+                </div>
+            </div>
+
+            <div id="box_second">
+                <div id="image_box_2"></div>
+                <div>
+                    <p>Information technology is making great strides</p>
+                    <span>September 14, 2016</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="social_media_links">
+        <ul>
+            <li><i class="fa-brands fa-behance"></i></li>
+            <li><i class="fa-brands fa-dribbble"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </div>
+    <div class="promo_text">
+        <p>Theme: Tran by KendyTheme | Designed by Mr.Surajit</p>
+    </div>
+</footer>
+<!-- footer end -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
